@@ -1,6 +1,6 @@
 # Feature Extraction Acoustic Scene Classification DCASE2016
 
-This work buils self scripts (Matlab & Python) to generate features (Spectrograms) from Acoustic Scene Classification (ASCD) CASE2016 dataset 
+This work buils self scripts (Matlab & Python) to generate features (Spectrograms) from Acoustic Scene Classification (ASCD) CASE2016 dataset (http://www.cs.tut.fi/sgn/arg/dcase2016/index)
 
 NOTES:
 + Using three spectrogram : Log-Mel, Gammatone filter, Constant Q-Transform
