@@ -23,10 +23,11 @@ NOTES:
            .....
           |--tram
                |--<tram_01>.wav
-    
+          ......
+          
     + data_test (no need to separated into classes inside)
     
-        data_test
           |--<train_01>.wav
           |--<tram_05>.wav
           |--<park_03>.wav
+          .....
