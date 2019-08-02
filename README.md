@@ -17,10 +17,9 @@ NOTES:
 + Training/Test audio files should be arranged:
 
     + data_train (Classes should be separated)
-          |--train
-          
-               |--<train_01>.wav
-               
+    
+          |--train         
+               |--<train_01>.wav               
            .....
           |--tram
                |--<tram_01>.wav
