@@ -12,7 +12,7 @@ NOTES:
     + Shuffle files among diffrent classes to create multiple batches of data
         + 03_group_cqt 03_group_gam 03_group_mel  (All Matlab)
         
-    + Entire spectrogram is split into patch with size at 128x128 that could be fed into backend learning model like CNN/RNN
+    + Entire spectrogram is split into patch with size at 128x128 that could be fed into backend learning models 
         + 04_data_cqt 04_data_gam 04_data_mel  (All Python)
         
  + Training/Test audio segments should be arranged (This setup does not include audio segments):
