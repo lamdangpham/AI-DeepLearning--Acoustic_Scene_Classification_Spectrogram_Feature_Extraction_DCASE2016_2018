@@ -5,7 +5,7 @@ This work builds scripts (Matlab & Python) to extract features (Spectrograms) fr
 NOTES:
  + Using three kinds of spectrogram : Log-Mel (Librosa library), Gammatone filter(Auditory Toolbox), Constant Q-Transform (Librosa library)
  
- + Steps:
+ + Runing Steps:
     + One-dimensional audio segment is transferred into entire spectrogram
         + 01_cqt(Python) 01_gam(Matlab) 01_mel(Python)
     
@@ -15,9 +15,9 @@ NOTES:
     + Entire spectrogram is split into patch with size at 128x128 that could be fed into backend learning model like CNN/RNN
         + 04_data_cqt 04_data_gam 04_data_mel  (All Python)
         
- + Training/Test audio files should be arranged:
+ + Training/Test audio segments should be arranged (This setup does not include audio segments):
 
-   + data_train (Audio segment should be separated into certain Classes)
+   + data_train (Training audio segment should be separated into certain Classes)
     
           |--train         
                |--<train_01>.wav               
@@ -26,7 +26,7 @@ NOTES:
                |--<tram_01>.wav
                ......
           
-   + data_test (all audio segments in same folder)
+   + data_test (all test audio segments are put into same folder 'data_test')
     
           |--<train_01>.wav
           |--<tram_05>.wav
