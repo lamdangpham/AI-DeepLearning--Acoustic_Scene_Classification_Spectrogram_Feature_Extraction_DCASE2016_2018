@@ -17,7 +17,7 @@ NOTES:
         
  + Training/Test audio files should be arranged:
 
-      + data_train (Audio segment should be separated into certain Classes)
+   + data_train (Audio segment should be separated into certain Classes)
     
           |--train         
                |--<train_01>.wav               
@@ -26,7 +26,7 @@ NOTES:
                |--<tram_01>.wav
                ......
           
-      + data_test (all audio segments in same folder)
+   + data_test (all audio segments in same folder)
     
           |--<train_01>.wav
           |--<tram_05>.wav
