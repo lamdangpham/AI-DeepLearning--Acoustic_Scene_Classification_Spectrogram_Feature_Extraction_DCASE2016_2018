@@ -2,9 +2,10 @@
 
 This work builds scripts (Matlab & Python) to extract features (Spectrograms) from Acoustic Scene Classification (ASC) DCASE2016 dataset (http://www.cs.tut.fi/sgn/arg/dcase2016/index)
 
-Refer the paper: "A Robust Framework For Acoustic Scene Classification" - Interspeech2019
-
-
+Refer the papers:
+   + "A Robust Framework For Acoustic Scene Classification" In "Interspeech 2019 Conference"
+   + "Bag-of-Features Models Based on C-DNN Network for Acoustic Scene Classification" In "2019 AES INTERNATIONAL CONFERENCE ON AUDIO FORENSICS (June 2019)"
+   
 # NOTES:
  + Using three kinds of spectrogram : Log-Mel (Librosa library), Gammatone filter(Auditory Toolbox), Constant Q-Transform (Librosa library)
  
