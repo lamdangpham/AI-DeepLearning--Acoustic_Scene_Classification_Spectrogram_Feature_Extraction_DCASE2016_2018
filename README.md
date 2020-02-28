@@ -10,13 +10,19 @@ Refer the papers stored in folder '05_Doc':
  
  + Runing Steps:
     + One-dimensional audio segment is transferred into entire spectrogram
-        + 01_cqt(Python) 01_gam(Matlab) 01_mel(Python)
+        + 01_cqt(Python) 
+        + 01_gam(Matlab) 
+        + 01_mel(Python)
     
     + Shuffle files among diffrent classes to create multiple batches of data
-        + 03_group_cqt 03_group_gam 03_group_mel  (All Matlab)
+        + 03_group_cqt (Matlab) 
+        + 03_group_gam (Matlab) 
+        + 03_group_mel (Matlab) 
         
     + Entire spectrogram is split into patch with size at 128x128 that could be fed into backend learning models 
-        + 04_data_cqt 04_data_gam 04_data_mel  (All Python)
+        + 04_data_cqt (Python)
+        + 04_data_gam (Python)
+        + 04_data_mel (Python)
         
  + Training/Test audio segments should be arranged (This setup does not include audio segments):
 
